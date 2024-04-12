@@ -60,6 +60,7 @@
 		4CD5973E1D1C5EDD00AB28D3 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5972A1D1C5EDD00AB28D3 /* IQUIView+IQKeyboardToolbar.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 		4CD597421D1C60B000AB28D3 /* IQKeyboardManagerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD597411D1C60B000AB28D3 /* IQKeyboardManagerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63EECD42205FD69A006B42C2 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EECD41205FD69A006B42C2 /* IQInvocation.swift */; };
+		E5B672622BC8DD8A00EA5566 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E5B672602BC8DD8A00EA5566 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		4CD597401D1C602500AB28D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Swift_Demo/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		4CD597411D1C60B000AB28D3 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
 		63EECD41205FD69A006B42C2 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		E5B672602BC8DD8A00EA5566 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 		4CD597141D1C5EDD00AB28D3 /* IQKeyboardManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E5B672612BC8DD8A00EA5566 /* Resources */,
 				4CD597151D1C5EDD00AB28D3 /* Categories */,
 				4CD5971C1D1C5EDD00AB28D3 /* Constants */,
 				4CD597201D1C5EDD00AB28D3 /* IQKeyboardManager.swift */,
@@ -306,6 +309,14 @@
 				63EECD41205FD69A006B42C2 /* IQInvocation.swift */,
 			);
 			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E5B672612BC8DD8A00EA5566 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B672602BC8DD8A00EA5566 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B672622BC8DD8A00EA5566 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
